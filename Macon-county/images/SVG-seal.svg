@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#2F5D3A" stroke-width="8"/>
+  <text x="100" y="40" font-size="16" text-anchor="middle" fill="#2F5D3A" font-family="Georgia">
+    MACON COUNTY
+  </text>
+  <text x="100" y="170" font-size="14" text-anchor="middle" fill="#2F5D3A" font-family="Georgia">
+    EST. 1828
+  </text>
+  <path d="M40 130 L80 90 L120 110 L160 70" stroke="#2F5D3A" stroke-width="6" fill="none"/>
+  <path d="M40 130 L160 130" stroke="#2F5D3A" stroke-width="6"/>
+</svg>

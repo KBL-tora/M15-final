@@ -1,0 +1,163 @@
+/* =========================================
+   UPDATED COLOR PALETTE (FOREST + MAROON + SOFTPINK)
+   ========================================= */
+:root {
+    --forest: #2F5D3A;      /* Deep natural green */
+    --sand: #D9CBB3;        /* Warm beige */
+    --clay: #F2EDE3;        /* Soft neutral */
+    --gray: #F7F7F7;        /* Light gray */
+    --charcoal: #333333;    /* Dark gray */
+    --gold: #C9A227;        /* Accent gold */
+
+    --maroon: #7A1C1C;      /* NEW: Deep maroon */
+    --softpink: #F4C2C2;    /* NEW: Soft pink */
+}
+
+/* =========================================
+   GLOBAL
+   ========================================= */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--white);
+    color: var(--charcoal);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: var(--maroon);
+    font-weight: 700;
+}
+
+a {
+    color: var(--maroon);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--gold);
+}
+
+/* =========================================
+   NAVBAR
+   ========================================= */
+.navbar {
+    background-color: var(--forest);
+}
+
+.navbar-brand span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--gold);
+}
+
+.nav-link {
+    color: var(--clay) !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: var(--gold) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--forest);
+}
+.dropdown-item {
+    color: var(--clay);
+}
+.dropdown-item:hover {
+    background-color: var(--maroon);
+    color: var(--clay);
+}
+
+/* =========================================
+   HERO SECTION (Split Layout)
+   ========================================= */
+.hero-split {
+    background-color: var(--softpink);
+    padding: 60px 0;
+}
+
+.hero-left {
+    background-color: var(--softpink);
+}
+
+.hero-left h1 {
+    color: var(--maroon);
+}
+
+.hero-left p {
+    color: var(--charcoal);
+}
+
+.hero-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+.btn-forest {
+    background-color: var(--forest);
+    color: white;
+    border: none;
+}
+.btn-forest:hover {
+    background-color: var(--maroon);
+}
+
+.btn-maroon {
+    background-color: var(--maroon);
+    color: white;
+    border: none;
+}
+.btn-maroon:hover {
+    background-color: var(--forest);
+}
+
+.btn-outline-maroon {
+    border: 2px solid var(--maroon);
+    color: var(--maroon);
+}
+.btn-outline-maroon:hover {
+    background-color: var(--maroon);
+    color: white;
+}
+
+/* =========================================
+   CARDS & CONTENT SECTIONS
+   ========================================= */
+.card {
+    border: 1px solid var(--sand);
+    background-color: var(--gray);
+}
+
+.card-title {
+    color: var(--maroon);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.footer {
+    background-color: var(--forest);
+    color: var(--clay);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* =========================================
+   SEAL LOGO
+   ========================================= */
+.seal-logo {
+    width: 200px;
+    height: 200px;
+}
